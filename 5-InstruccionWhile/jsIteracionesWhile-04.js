@@ -5,5 +5,7 @@ function mostrar()
 {
 	var numeroIngresado;
 	numeroIngresado = prompt("ingrese un número entre 0 y 10.");
-	
+	numeroIngresado= parseInt (numeroIngresado);
+	 
+
 }//FIN DE LA FUNCIÓN
