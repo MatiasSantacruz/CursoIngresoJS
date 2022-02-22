@@ -19,7 +19,7 @@ function mostrar()
     	numeroIngresado = parseInt(numeroIngresado);
 
     	acumulador = acumulador + numeroIngresado;
-    	contador = contador + 1; 
+    	contador = contador + 1;
 
     }
 
@@ -31,6 +31,7 @@ function mostrar()
 
     }
 
+   
     document.getElementById("txtIdSuma").value=acumulador;
     document.getElementById("txtIdPromedio").value=acumulador/contador;
 
